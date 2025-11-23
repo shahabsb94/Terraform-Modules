@@ -7,6 +7,9 @@
 #     value = aws_subnet.public
 #  }
 
+
+### we have to give all possible output ids to use by other module teams
+
 output "vpc_id" {
   value = aws_vpc.main.id
 }
